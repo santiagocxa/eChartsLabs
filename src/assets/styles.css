@@ -1,0 +1,23 @@
+.Container {
+  margin-top: 20px;
+}
+
+.Menu {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  align-content: center;
+  height: 70px;
+  border-bottom: 1px solid #5C6BC0;
+}
+
+.Button {
+  text-decoration: none;
+  background: #5C6BC0;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  color: #E0F7FA;
+}
