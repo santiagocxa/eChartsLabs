@@ -3,7 +3,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import Home from '../components/Home';
 import { DoubleAxis } from '../components/DoubleAxis';
 import { Thresholds } from '../components/Thresholds';
-import { Forecasting } from '../components/Forecasting.js';
+import { Forecasting } from '../components/Forecasting';
 
 export const router = createBrowserRouter([
 	{

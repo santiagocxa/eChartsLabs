@@ -21,3 +21,9 @@
   border-radius: 5px;
   color: #E0F7FA;
 }
+
+.Forecasting {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
