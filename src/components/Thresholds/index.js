@@ -15,13 +15,11 @@ const Thresholds = () => {
 
 			xAxis: {
 				type: 'time',
-				min: '2024-08-14 08:00:00',
-				max: '2024-08-14 16:00:00',
+			 
 			},
 			yAxis: {
 				type: 'value',
-				min: 0,
-				max: 100,
+ 
 			},
 			series: [
 				{
