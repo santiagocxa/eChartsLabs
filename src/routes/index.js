@@ -4,6 +4,7 @@ import Home from '../components/Home';
 import { DoubleAxis } from '../components/DoubleAxis';
 import { Thresholds } from '../components/Thresholds';
 import { Forecasting } from '../components/Forecasting';
+import { BarChart } from '../components/BarChart';
 
 export const router = createBrowserRouter([
 	{
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
 			{
 				path: '/forecasting',
 				element: <Forecasting />,
+			},
+      {
+				path: '/barChart',
+				element: <BarChart  />,
 			},
 		],
 	},
